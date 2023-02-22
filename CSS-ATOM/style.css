@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(220, 104, 240);
+}
+.hello{
+    width: 200px;
+    height: 200px;
+    /* border: solid 10px; */
+    padding: 20px;
+    background-color:aquamarine;
+}
+.top-container{
+    width: 200px;
+    height:200px;
+    background-color: yellow;
+    border-width: 10px;
+    border: solid 10px;
+    margin: 0px 240px;
+}
+.middle-container{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    border: solid 10px;
+    color: black;
+    margin: 0px 460px;
+
+}
+#about{
+    text-align: center;
+}

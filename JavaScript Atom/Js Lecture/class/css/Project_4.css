@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+  background-color: black;
+  color: white;
+}
+nav{
+  margin: -12px -8px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  cursor:pointer;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.brand img{
+  padding: 0 6px;
+  width: 44px;
+  position: relative;
+  left: -5px;
+}
+.brand{
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+  transition: 1s;
+}
+nav .brand:hover{
+  color: pink;
+}
+.songTheme{
+  height: 401px;
+width: 1355px;
+position: relative;
+top: 229px;
+left: 141px;
+}
+.bottom{
+  height: 80px;
+  width: 100%;
+  position:relative;
+  bottom: 17px;
+  background-color: black;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+.songItem img{
+width: 43px;
+margin: 0 23px;
+border-radius: 34px;
+position: relative;
+top: 54px;
+left: 99px;
+}
+.songName{
+    position:relative;
+    top:0px;
+    left: 203px;
+}
+.songTime{
+  position:relative;
+  top: -40px;
+  left: 504px;
+}
+.bottom #myProgressBar{
+  position: relative;
+  top: 58px;
+  left: 107px;
+  width: 1020px;
+}
+.bottom .icons{
+  text-align: center;
+  position: relative;
+  top: -9px;
+  font-size: 27px;
+  color: #ffffffd4;
+}
+.bottom .icons #icon{
+  padding: 0 10px;
+}

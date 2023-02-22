@@ -1,0 +1,80 @@
+body{
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 66px;
+    left: -5px;
+}
+input{
+height: 28px;
+width: 189px;
+position: relative;
+top: 219px;
+left: 395px;
+margin: 0 17px;
+border-radius: 5px;
+border: 2px solid green;
+text-align: center;
+font-family: monospace;
+transition: .5s;
+cursor: pointer;
+}
+/* input:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  border-color: #ff4c68 !important;
+  cursor: pointer;
+} */
+.heart{
+  position: absolute;
+  top: 205px;
+  left: 610px;
+  height: 2px;
+  width: 5px;
+}
+button{
+  height: 26px;
+  width: 79px;
+  position: relative;
+  top: 324px;
+  left: 124px;
+  font-family:monospace;
+  font-size: 15px;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  border-color: #ff4c68 !important;
+  cursor: pointer;
+  border: 1px solied green;
+}
+.container{
+   margin: -64px -8px -55px -9px;
+    height: 600px;
+    background: linear-gradient(133deg,#c74dff, #ef5350);
+    -webkit-animation: GradientBG 60s ease infinite;
+    -moz-animation: GradientBG 60s ease infinite;
+    -o-animation: GradientBG 60s ease infinite;
+    animation: GradientBG 6s ease infinite;
+}
+@-webkit-keyframes GradientBG {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientBG {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientBG {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

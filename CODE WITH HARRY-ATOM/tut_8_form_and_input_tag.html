@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is form tuturial</title>
+</head>
+<body>
+    <h2 style="color:rgb(0, 106, 255);"><u>This is Registration Form</u></h2>
+    <form action="backend.php">
+
+        <!-- div is a block element -->
+        <label for="Name">Name</label>
+    <div>
+        <!-- input tag is spanice  inline elemrent         -->
+         <input type="text" name="My Name" id="Name"><br>
+    </div>
+    <br>
+   <div>
+        Role: <input type="text" name="My role"><br>
+   </div><br>
+   <div>
+       Email: <input type="email" name="my email">
+    </div><br>
+    <div>
+        DOB: <input type="date" name="DOB" id="date of birth">
+    </div><br>
+    <div>
+        Contact : <input type="text" name="Mobile number">
+    </div><br>
+    <div>
+        Bonus:<input type="number" Name="mybonus">
+    </div><br>
+    <div>
+        <!-- checked after eligibility use for default check -->
+        Are you eligible: <input type="checkbox" name="myeligibility">Yes
+    </div><br>
+    <div>
+        <label for="car">car</label>
+        <select name="mycar" id="car">
+        <option value="BMW"selected>BMW</option>
+        <option value="Tata">Tata</option>
+        </select>
+    </div><br>
+    <div>
+        Gender: <input type="radio" name="mygender">Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">Other
+    </div><br>
+    <div>
+        Are you indian: <input type="radio" name="nationality"> Yes <input type="radio" name="nationality">No
+    </div><br>
+    <div>
+           Write about yourself:  <br><textarea name="Introduction" cols="40" rows="15"></textarea>
+    </div><br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit Now">
+</form>
+
+</body>
+</html>
