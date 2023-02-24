@@ -42,5 +42,5 @@ body{
         box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
         z-index: 3;
         border-color: #ff4c68 !important;
-        cursor: pointer;
+        cursor: pointer; 
 }
